@@ -21,10 +21,12 @@ Nationally, **15.1% of revenue (R$1.23M)** comes from orders rated ≤2 stars. T
 ## 2. Does delivery time affect satisfaction?
 
 Grouping orders by how long delivery actually took, the average review score falls from **4.41** (delivered within a week) to **2.33** (delivered in 4+ weeks).
+
 ![Customer satisfaction vs Delivery time](images/01_score_delivery.png)
 
 
 However, it is necessary to take into account also the delay of an order. In fact, a 3+ week delivery could be fine if it was quoted upfront. This is where the effect is sharpest: orders delivered on time or early average **4.29**, but as soon as an order is delayed at all, the score collapses to **2.67**, and keeps falling toward **~1.6-1.8** for longer delays. Missing the promised date, even briefly, matters more to customers than absolute delivery speed.
+
 ![Customer satisfaction vs Delay](images/02_score_delay.png)
 
 The Pearson correlation tells that both Delivery time and Delay are correlated with the review score (correlation of **-0.33** and **-0.27**, respectively). Both are moderate negative correlations, though them alone don't fully determine satisfaction.
@@ -34,6 +36,7 @@ The Pearson correlation tells that both Delivery time and Delay are correlated w
 ## 3. Where is the problem worse?
 
 The plot of % of delayed deliveries against average review score vary a lot by state. Here, the color of each dot represents the % of revenue at risk, while the ones in trasparency are those with low revenue (less than 0.5% with respect to the total), in order to appreciate also the importance of each state.
+
 ![Percentage of delays vs Average review score, per state](images/04_scatter.png)
 
 States to the right (more delays) consistently sit lower (worse scores). **SE, MA, PA, CE** and **RJ** stand out as states combining above-average delay rates with below-average satisfaction. **RR** and **AC** show extreme delay rates too, but with fewer than 50 orders each, they have a low impact on the total Brazil's revenue.
