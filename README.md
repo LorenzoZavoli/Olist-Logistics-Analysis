@@ -21,7 +21,7 @@ Nationally, **15.1% of revenue (R$1.23M)** comes from orders rated ≤2 stars. T
 ## 2. Does delivery time affect satisfaction?
 
 Grouping orders by how long delivery actually took, the average review score falls from **4.41** (delivered within a week) to **2.33** (delivered in 4+ weeks).
-![Customer satisfaction vs DelDelivery timeay](images/01_score_delivery.png)
+![Customer satisfaction vs Delivery time](images/01_score_delivery.png)
 
 
 However, it is necessary to take into account also the delay of an order. In fact, a 3+ week delivery could be fine if it was quoted upfront. This is where the effect is sharpest: orders delivered on time or early average **4.29**, but as soon as an order is delayed at all, the score collapses to **2.67**, and keeps falling toward **~1.6-1.8** for longer delays. Missing the promised date, even briefly, matters more to customers than absolute delivery speed.
